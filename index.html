@@ -1,110 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Profile Page Assignment by Steven Betancur -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All About Bad Bunny</title>
-    <meta name="author" content="Steven Betancur">
-    <meta name="description" content="An informational webpage about Puerto Rican artist Bad Bunny and his carreer.">
-    <meta name="keywords" content="Bad Bunny, Benito Antonio Martinez Ocasio, Reggaeton, Latin Trap, YHLQMDLG, Un Verano Sin Ti">
+  <!-- Profile Page Assignment by Steven Betancur -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Life and Career of Bad Bunny</title>
+  <meta name="author" content="Steven Betancur">
+  <meta name="description" content="An informational webpage about Puerto Rican artist Bad Bunny and his career.">
+  <meta name="keywords" content="Bad Bunny, Benito Antonio Martinez Ocasio, Reggaeton, Latin Trap, YHLQMDLG, Un Verano Sin Ti">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #fafafa;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header, footer, section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #111;
+      padding: 10px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ff007f;
+    }
+
+    /* Tag Selectors */
+    h1 {
+      color: #e60023;
+      text-align: center;
+    }
+    p {
+      font-size: 1rem;
+    }
+
+    /* Custom Classes */
+    .highlight {
+      background-color: #ff007f;
+      color: white;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .album-cover {
+      border: 3px solid #e60023;
+      border-radius: 10px;
+    }
+
+    /* Gallery */
+    #gallery figure {
+      display: inline-block;
+      margin: 10px;
+    }
+    #gallery img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+    #gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background-color: #111;
+      color: white;
+    }
+
+    /* New CSS property (aspect-ratio) */
+    iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: none;
+    }
+  </style>
 </head>
+
 <body>
-    <header>
-        <h1>The life and career of Bad Bunny</h1>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#earlylife">Early Life</a></li>
+      <li><a href="#hits">Hits</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>The Life and Career of Bad Bunny</h1>
+    <p>
+      Bad Bunny, born in <span class="highlight">1994</span>, is a Puerto Rican rapper, singer, and songwriter. 
+      He is known for his deep voice, hit music, and <em>unique fashion</em> style. 
+      He has become one of the most influential Latin artists of all time, shaping reggaeton and Latin trap globally.
+    </p>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <article>
+      <section id="earlylife">
+        <h2>Early Life and Career</h2>
         <p>
-            Bad Bunny who was born in <time datetime="1994">1994</time> is a Puerto Rican rapper, singer, and songwriter. 
-            He is known for his deep voice, top music, and <em>unique fashion</em> style. 
-            He has become one of the most influential Latin artists of all time, shaping reggaeton and Latin trap globally.
+          He grew up in Vega Baja, Puerto Rico, and was influenced by reggaeton icons like Daddy Yankee. 
+          While studying communications at the University of Puerto Rico, he uploaded songs to SoundCloud. 
+          His track <strong>“Diles”</strong> gained attention in 2016, leading to a record deal and the start of his professional career.
         </p>
-    </header>
+      </section>
 
-    <!-- Main -->
-    <main>
-        <article>
-            <section>
-                <h2>Early Life and Career</h2>
-                <p>
-                    He grew up in Vega Baja, Puerto Rico and was influenced by reggaeton icons like Daddy Yankee. 
-                    While he was studying communications at the University of Puerto Rico he uploaded songs to SoundCloud. 
-                    For example, his track <strong>“Diles”</strong> got attention in 2016 which led to a signing with a top music label and the beginning of his career.
-                </p>
-            </section>
-
-            <section>
-                <h2>Bad Bunny Hits</h2>
-                <p>
-                    Since his start in the industry, Bad Bunny has become a global famous superstar. 
-                    His first hit album was Un Verano Sin Ti (2022) which topped the Billboard rankings. 
-                    Also, he has collabed with artists like Drake, J Balvin, and Cardi B, and has sold out tours around the world.
-                </p>
-            </section>
-
-            <section>
-                <h2>Top Albums</h2>
-                <ol>
-                    <li>Un Verano Sin Ti</li>
-                    <li>Debi tirar mas fotos</li>
-                    <li>Oasis</li>
-                </ol>
-            </section>
-
-            <section>
-                <h3>Tours</h3>
-                <ul>
-                    <li>Oasis</li>
-                    <li>El Ultimo tour del Mundo</li>
-                    <li>World Tour</li>
-                </ul>
-            </section>
-
-            <section>
-                <h3>Gallery</h3>
-                <figure>
-                    <img src="https://www.billboard.com/wp-content/uploads/2022/05/bad-bunny-cover-art-2022-billboard-1240.jpg?w=1024" 
-                         alt="Bad Bunny Billboard Cover" width="400">
-                </figure>
-                <figure>
-                    <img src="https://dims.apnews.com/dims4/default/94820cd/2147483647/strip/false/crop/3000x3000+0+0/resize/1486x1486!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F97%2F47%2F802828e02227526ce413c1f35156%2F5de7e91c961c4b2cb001724222427ace" 
-                         alt="Bad Bunny AP News Portrait" width="400">
-                </figure>
-                <figure>
-                    <img src="https://i.scdn.co/image/ab67616d0000b273bbd45c8d36e0e045ef640411" 
-                         alt="Bad Bunny Spotify Cover" width="400">
-                </figure>
-            </section>
-
-            <section>
-                <h3>Featured Video</h3>
-                <iframe width="560" height="315" 
-                        src="https://www.youtube.com/embed/NBghhjuMNKM" 
-                        title="Bad Bunny Music Video" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
-            </section>
-
-            <section>
-                <h3>Learn More</h3>
-                <p>
-                    Visit <a href="https://en.wikipedia.org/wiki/Bad_Bunny" target="_blank" rel="noopener">Bad Bunny on Wikipedia</a> 
-                    or stream his music on 
-                    <a href="https://open.spotify.com/artist/4q3ewBCX7sLwd24euuV69X" target="_blank" rel="noopener">Spotify</a>.
-                </p>
-            </section>
-        </article>
-    </main>
-
-    <!-- Footer -->
-    <footer>
+      <section id="hits">
+        <h2>Bad Bunny Hits</h2>
         <p>
-            Author Info: Steven Betancur is a student at the University of Miami studying communications. 
-            He is passionate about music, golf, and cars and he chose to profile Bad Bunny because he himself listens to his music.
+          Since his start in the industry, Bad Bunny has become a global superstar. 
+          His first hit album was <strong>Un Verano Sin Ti</strong> (2022), which topped the Billboard charts. 
+          He’s collaborated with artists like Drake, J Balvin, and Cardi B, and has sold out world tours.
         </p>
-        <address>
-            Contact: <a href="mailto:sdb5286@miami.edu">sdb5286@miami.edu</a>
-        </address>
-    </footer>
+      </section>
+
+      <section>
+        <h2>Top Albums</h2>
+        <ol>
+          <li>Un Verano Sin Ti</li>
+          <li>Debi tirar mas fotos</li>
+          <li>Oasis</li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>Tours</h3>
+        <ul>
+          <li>Oasis Tour</li>
+          <li>El Último Tour del Mundo</li>
+          <li>World’s Hottest Tour</li>
+        </ul>
+      </section>
+
+      <section id="gallery">
+        <h3>Gallery</h3>
+        <figure>
+          <img class="album-cover" src="https://www.billboard.com/wp-content/uploads/2022/05/bad-bunny-cover-art-2022-billboard-1240.jpg?w=1024" alt="Bad Bunny Billboard Cover">
+        </figure>
+        <figure>
+          <img src="https://dims.apnews.com/dims4/default/94820cd/2147483647/strip/false/crop/3000x3000+0+0/resize/1486x1486!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F97%2F47%2F802828e02227526ce413c1f35156%2F5de7e91c961c4b2cb001724222427ace" alt="Bad Bunny AP News Portrait">
+        </figure>
+        <figure>
+          <img src="https://i.scdn.co/image/ab67616d0000b273bbd45c8d36e0e045ef640411" alt="Bad Bunny Spotify Cover">
+        </figure>
+      </section>
+
+      <section>
+        <h3>Featured Video</h3>
+        <iframe src="https://www.youtube.com/embed/NBghhjuMNKM" title="Bad Bunny Music Video" allowfullscreen></iframe>
+      </section>
+
+      <section>
+        <h3>Learn More</h3>
+        <p>
+          Visit <a href="https://en.wikipedia.org/wiki/Bad_Bunny" target="_blank" rel="noopener">Bad Bunny on Wikipedia</a> 
+          or stream his music on 
+          <a href="https://open.spotify.com/artist/4q3ewBCX7sLwd24euuV69X" target="_blank" rel="noopener">Spotify</a>.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>
+      Author Info: Steven Betancur is a student at the University of Miami studying communications. 
+      He is passionate about music, golf, and cars and chose to profile Bad Bunny because he listens to his music.
+    </p>
+    <address>
+      Contact: <a href="mailto:sdb5286@miami.edu">sdb5286@miami.edu</a>
+    </address>
+  </footer>
 </body>
 </html>
